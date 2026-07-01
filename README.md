@@ -10,7 +10,10 @@ An Adversarial Attacks framework represents a specialized field of AI security a
 The technical methodology of adversarial disruption has transitioned from hand-crafted gradient optimization vectors to distributed black-box approximations and native multi-modal semantic jailbreaks.
 
 ```mermaid
-[White-Box Gradient Optimizers (FGSM, 2014)] ───> [Black-Box Transfer Networks (2017-2022)] ───> [Generative & Prompt Jailbreaks (2023+)](Requires Absolute Internal Weight Access)        (Query-Based Iterative Boundary Probing)        (Semantic Token Injections & Modality Alignment)
+flowchart LR
+    A["White-Box Gradient Optimizers (FGSM, 2014)<br/>(Requires Absolute Internal Weight Access)"]
+    --> B["Black-Box Transfer Networks (2017-2022)<br/>(Query-Based Iterative Boundary Probing)"]
+    --> C["Generative & Prompt Jailbreaks (2023+)<br/>(Semantic Token Injections & Modality Alignment)"]
 ```
 
 *   **The Analytical White-Box Era (FGSM / PGD, ~2014–2017)**
@@ -48,8 +51,31 @@ Adversarial operations are strictly categorized based on the volume of architect
 Depending on how the mathematical perturbations intersect with real-world sensors or linguistic tokens, adversarial execution maps across distinct operational tracks.
 
 ```mermaid
-Digital Attack                                                  Physical Attack[Raw Pixel Tensor] ──(Apply PGD Offset)──> [Corrupted Array]     [Real-World Asset] ──(Print 3D Patch)──> [Camera Sensor Capture]│                                        │                       │                                       │▼                                        ▼                       ▼                                       ▼(True Classification)                   (Catastrophic Subversion) (True Physical Object)               (Explosive Misclassification)
+flowchart LR
+
+subgraph D["Digital Attack"]
+    D1["Raw Pixel Tensor"]
+    D2["Corrupted Array"]
+    D3["True Classification"]
+    D4["Catastrophic Subversion"]
+
+    D1 -- "Apply PGD Offset" --> D2
+    D1 --> D3
+    D2 --> D4
+end
+
+subgraph P["Physical Attack"]
+    P1["Real-World Asset"]
+    P2["Camera Sensor Capture"]
+    P3["True Physical Object"]
+    P4["Explosive Misclassification"]
+
+    P1 -- "Print 3D Patch" --> P2
+    P1 --> P3
+    P2 --> P4
+end
 ```
+
 *   **Digital-Tensor Perturbations**
     *   *Profile:* Modifies data arrays at the pure software level before inference occurs. The mathematical distortion is bounded by a maximum scale threshold ($\epsilon$, typically measured via $L_\infty$ or $L_2$ vector norms), ensuring the image matrix looks visually unaltered to human auditors.
 *   **Physical-World Spatial Patches**
