@@ -2,7 +2,20 @@
 
 ![Awesome Adversarial Attacks Banner](assets/banner.svg)
 
+<div align="center">
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Adversarial-Attacks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Adversarial-Attacks?style=flat-square" alt="Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Adversarial-Attacks/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Adversarial-Attacks?style=flat-square" alt="Forks"/></a> <a href="https://github.com/ishandutta2007/Awesome-Adversarial-Attacks/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Adversarial-Attacks?style=flat-square" alt="Issues"/></a> <a href="https://github.com/ishandutta2007/Awesome-Adversarial-Attacks/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Adversarial-Attacks?style=flat-square" alt="License"/></a>
+</div>
+
 ## 🎯 Adversarial Attacks in AI: History, Progression, Variants, & Applications
+
+### 📌 Table of Contents
+- [1. ⏳ The Macro Chronological Evolution](#1--the-macro-chronological-evolution)
+- [2. 🎯 Core Strategic & Access-Level Variants](#2--core-strategic--access-level-variants)
+- [3. 🌐 Physical-Spatial & Data-Modality Types](#3--physical-spatial--data-modality-types)
+- [4. ⚙️ Production Engineering Challenges & Hardening Countermeasures](#4--production-engineering-challenges--hardening-countermeasures)
+- [5. 🚀 Frontier Real-World AI Security Applications](#5--frontier-real-world-ai-security-applications)
+- [📚 References](#-references)
+
 
 An Adversarial Attacks framework represents a specialized field of AI security and robustness testing dedicated to intentionally manipulating machine learning models into making catastrophic errors. By injecting microscopic, precisely engineered perturbations—often completely imperceptible to human senses—into input tensors (such as images, audio streams, or text prompts), an attacker can completely corrupt a model's latent representations. Over the history of AI, adversarial exploits have evolved from theoretical white-box optimization tricks on static image classifiers to scalable black-box transfers, prompt injection vectors on foundational Large Language Models (LLMs), and spatial physical-world overrides on autonomous vehicle vision arrays.
 
