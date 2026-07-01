@@ -30,19 +30,19 @@ flowchart LR
 
 Adversarial operations are strictly categorized based on the volume of architectural parameters the adversary can audit or influence during the attack cycle.
 
-### A. White-Box Attacks
-*   **Mechanism:** The adversary possesses absolute mathematical visibility over the target model's infrastructure, including weights, activation curves, layers, and optimization matrices. The attacker directly runs backpropagation loops over the input space to find the exact global minimum distortion needed to break the model.
-*   **Key Algorithms:** FGSM, PGD, Carlini-Wagner (C&W) L2 loss, and DeepFool.
+-  ### A. White-Box Attacks
+	*   **Mechanism:** The adversary possesses absolute mathematical visibility over the target model's infrastructure, including weights, activation curves, layers, and optimization matrices. The attacker directly runs backpropagation loops over the input space to find the exact global minimum distortion needed to break the model.
+	*   **Key Algorithms:** FGSM, PGD, Carlini-Wagner (C&W) L2 loss, and DeepFool.
 
-### B. Black-Box Attacks
-*   **Mechanism:** The target model sits behind an impenetrable wall (such as a restricted cloud API endpoint). The adversary can only feed inputs and capture the terminal outputs (either soft log-probabilities or hard string tokens).
-*   **Sub-Types:** 
-    1.  *Score-Based:* Uses finite-difference calculus to approximate gradients from output probability variations.
-    2.  *Decision-Based:* Probes the strict geometric borders of a classification threshold.
-    3.  *Transfer-Based:* Trains an offline shadow model to synthesize transferable exploits.
+-  ### B. Black-Box Attacks
+	*   **Mechanism:** The target model sits behind an impenetrable wall (such as a restricted cloud API endpoint). The adversary can only feed inputs and capture the terminal outputs (either soft log-probabilities or hard string tokens).
+	*   **Sub-Types:** 
+	    1.  *Score-Based:* Uses finite-difference calculus to approximate gradients from output probability variations.
+	    2.  *Decision-Based:* Probes the strict geometric borders of a classification threshold.
+	    3.  *Transfer-Based:* Trains an offline shadow model to synthesize transferable exploits.
 
-### C. Gray-Box Attacks
-*   **Mechanism:** A hybrid configuration. The attacker lacks access to the exact weights of the system but understands the underlying model family type, tokenization vocabulary matrix, or historical training data distribution.
+-  ### C. Gray-Box Attacks
+	*   **Mechanism:** A hybrid configuration. The attacker lacks access to the exact weights of the system but understands the underlying model family type, tokenization vocabulary matrix, or historical training data distribution.
 
 ---
 
