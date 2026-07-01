@@ -9,7 +9,7 @@ An Adversarial Attacks framework represents a specialized field of AI security a
 
 The technical methodology of adversarial disruption has transitioned from hand-crafted gradient optimization vectors to distributed black-box approximations and native multi-modal semantic jailbreaks.
 
-```
+```mermaid
 [White-Box Gradient Optimizers (FGSM, 2014)] ───> [Black-Box Transfer Networks (2017-2022)] ───> [Generative & Prompt Jailbreaks (2023+)](Requires Absolute Internal Weight Access)        (Query-Based Iterative Boundary Probing)        (Semantic Token Injections & Modality Alignment)
 ```
 
@@ -47,7 +47,7 @@ Adversarial operations are strictly categorized based on the volume of architect
 
 Depending on how the mathematical perturbations intersect with real-world sensors or linguistic tokens, adversarial execution maps across distinct operational tracks.
 
-```
+```mermaid
 Digital Attack                                                  Physical Attack[Raw Pixel Tensor] ──(Apply PGD Offset)──> [Corrupted Array]     [Real-World Asset] ──(Print 3D Patch)──> [Camera Sensor Capture]│                                        │                       │                                       │▼                                        ▼                       ▼                                       ▼(True Classification)                   (Catastrophic Subversion) (True Physical Object)               (Explosive Misclassification)
 ```
 *   **Digital-Tensor Perturbations**
