@@ -18,7 +18,8 @@
   </defs>
 
   <style>
-    /* CSS Styling & Animations for the Dynamic Aspect */
+    <![CDATA[
+    /* CSS Styling and Animations for the Dynamic Aspect */
     @keyframes pulse {
       0% { opacity: 0.7; }
       50% { opacity: 1; filter: drop-shadow(0 0 15px #f43f5e); }
@@ -88,6 +89,7 @@
       opacity: 0.6;
       animation: float 6s infinite ease-in-out;
     }
+    ]]>
   </style>
 
   <!-- Background -->
