@@ -122,6 +122,19 @@ Securing high-throughput commercial AI architectures against adversarial exploit
 
 ---
 
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Adversarial-Attacks&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Adversarial-Attacks&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Adversarial-Attacks&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Adversarial-Attacks&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
+
+---
+
 To advance this documentation repository, secure development context, or threat-modeling framework, consider exploring these adjacent development pathways:
 * Build a **Python script using PyTorch and Torchattacks** demonstrating how to calculate and apply a multi-step Projected Gradient Descent (PGD) adversarial perturbation mask over a localized image tensor block.
 * Generate a **comprehensive Markdown table** explicitly analyzing White-Box PGD, Black-Box Boundary Probing, Direct Prompt Injection, and Cross-Modal VLM Attacks across vector constraints, computational attack budgets, infrastructure entry vectors, and defense mitigation effectiveness.
