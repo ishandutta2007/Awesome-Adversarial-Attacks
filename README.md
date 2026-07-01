@@ -1,11 +1,14 @@
-# Awesome-Adversarial-Attacks
-## Adversarial Attacks in AI: History, Progression, Variants, & Applications
+# 🛡️ Awesome-Adversarial-Attacks
+
+![Awesome Adversarial Attacks Banner](assets/banner.svg)
+
+## 🎯 Adversarial Attacks in AI: History, Progression, Variants, & Applications
 
 An Adversarial Attacks framework represents a specialized field of AI security and robustness testing dedicated to intentionally manipulating machine learning models into making catastrophic errors. By injecting microscopic, precisely engineered perturbations—often completely imperceptible to human senses—into input tensors (such as images, audio streams, or text prompts), an attacker can completely corrupt a model's latent representations. Over the history of AI, adversarial exploits have evolved from theoretical white-box optimization tricks on static image classifiers to scalable black-box transfers, prompt injection vectors on foundational Large Language Models (LLMs), and spatial physical-world overrides on autonomous vehicle vision arrays.
 
 ---
 
-## 1. The Macro Chronological Evolution
+## 1. ⏳ The Macro Chronological Evolution
 
 The technical methodology of adversarial disruption has transitioned from hand-crafted gradient optimization vectors to distributed black-box approximations and native multi-modal semantic jailbreaks.
 
@@ -24,7 +27,7 @@ flowchart LR
 
 ---
 
-## 2. Core Strategic & Access-Level Variants
+## 2. 🎯 Core Strategic & Access-Level Variants
 
 Adversarial operations are strictly categorized based on the volume of architectural parameters the adversary can audit or influence during the attack cycle.
 
@@ -36,7 +39,7 @@ Adversarial operations are strictly categorized based on the volume of architect
 
 ---
 
-## 3. Physical-Spatial & Data-Modality Types
+## 3. 🌐 Physical-Spatial & Data-Modality Types
 
 Depending on how the mathematical perturbations intersect with real-world sensors or linguistic tokens, adversarial execution maps across distinct operational tracks.
 
@@ -74,7 +77,7 @@ end
 
 ---
 
-## 4. Production Engineering Challenges & Hardening Countermeasures
+## 4. ⚙️ Production Engineering Challenges & Hardening Countermeasures
 
 Securing high-throughput commercial AI architectures against adversarial exploitation requires balancing model processing speed with structural parameters defense.
 
@@ -86,7 +89,7 @@ Securing high-throughput commercial AI architectures against adversarial exploit
 
 ---
 
-## 5. Frontier Real-World AI Security Applications
+## 5. 🚀 Frontier Real-World AI Security Applications
 
 | Application | Description & Mitigation | Year First Used | First Paper |
 | :--- | :--- | :--- | :--- |
@@ -96,7 +99,7 @@ Securing high-throughput commercial AI architectures against adversarial exploit
 
 ---
 
-## References
+## 📚 References
 1. Szegedy, C., et al. (2013). Intriguing properties of neural networks. *arXiv preprint arXiv:1312.6199*.
 2. Goodfellow, I. J., Shlens, J., & Szegedy, C. (2014). Explaining and harnessing adversarial examples. *International Conference on Learning Representations (ICLR)*.
 3. Madry, A., et al. (2018). Towards deep learning models resistant to adversarial attacks. *International Conference on Learning Representations (ICLR)*.
